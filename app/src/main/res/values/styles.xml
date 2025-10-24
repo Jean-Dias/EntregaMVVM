@@ -1,0 +1,9 @@
+<resources>
+    <!-- Minimal styles to satisfy AndroidManifest theme reference.
+         The app uses Jetpack Compose Material3 theme in Kotlin; this XML
+         provides a lightweight bridge so resource linking will succeed. -->
+    <style name="Theme.NubankMvvm" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
